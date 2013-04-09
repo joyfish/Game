@@ -5,7 +5,9 @@
 *.pydevproject
 .project
 .metadata
-bin/
+bin/**
+doc/**
+gen/**
 tmp/
 *.tmp
 *.bak
@@ -14,6 +16,8 @@ tmp/
 local.properties
 .settings/
 .loadpath
+.DS_Store
+Thumbs.db
 
 # External tool builders
 .externalToolBuilders/
